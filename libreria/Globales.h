@@ -23,7 +23,7 @@ typedef struct
 	string estado;
 	string id_OS;//id de obra social, solo tiene una obra social perteneciente a su ultima consulta
 }pacientes;
-typedef struct contacto
+typedef struct 
 {
 	string DNI;
 	string telefono;
@@ -31,17 +31,17 @@ typedef struct contacto
 	string direccion;
 	string mail;
 
-};
-typedef struct consulta
+}contacto;
+typedef struct 
 {
 	string DNI;
 	tm fecha_pedido;//Cuando pidieron el turno
 	tm fecha_consulta;
 	bool Presento;
 	string id_medico;
-};
+}consulta;
 
-typedef struct medicos
+typedef struct 
 {
 	string id_medico;
 	string nombre;
@@ -50,9 +50,9 @@ typedef struct medicos
 	string especialidad;
 	bool activo;
 
-};
-typedef struct obra_social
+}medicos;
+typedef struct 
 {
 	string id_obra_social;
 	string obra_social;
-};
+}obra_social;
