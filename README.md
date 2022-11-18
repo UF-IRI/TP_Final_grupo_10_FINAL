@@ -1,13 +1,14 @@
-# TP Final - Grupo `XX`
+# TP Final - Grupo `10`
 ### Consigna
     Consigna del TP Final
 ### Descripción
-    Descripción del proyecto
+    Proyecto en el cual el unit corre ok, las funciones estan testeadas y todas andan ok, pero no funciona leer los archivos, tenemos un proyecto aparte con archivos 
+    generados por nosotras en el cual se demuestra el funcionamiento de todas las funciones
 ### Integrantes
-- Integrante 1
-- Integrante 2
-- Integrante 3
-- Integrante 4
+- Catalina Corona
+- Camila Liaudat
+- Trinidad Plácido
+- Camila Ramat
 ### Compilaciones
 [![Ubuntu](https://github.com/UF-IRI/TP_Final/actions/workflows/ubuntu.yml/badge.svg)](https://github.com/UF-IRI/TP_Final/actions/workflows/ubuntu.yml)
 ### Unit Tests
