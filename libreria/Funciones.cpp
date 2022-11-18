@@ -613,7 +613,11 @@ pacientes BuscarPaciente2(pacientes* estructura, int N, string clave)
 		return PacienteEncontrado; // lo retorno
 	}
 	else
+	{
 		cout << " Los datos no coinciden con los cargados en el archivo" << endl;
+		PacienteEncontrado.DNI = "0";
+		return PacienteEncontrado;
+	}
 }
 contacto BuscarContactoPaciente2(contacto* estructura, int N, string clave)
 {
@@ -625,6 +629,9 @@ contacto BuscarContactoPaciente2(contacto* estructura, int N, string clave)
 		}//10242584
 	}
 	cout << "Contacto del paciente:" << clave << " no fue encontrado" << endl;
+	contacto aux;
+	aux.DNI = "0";
+	return aux;
 }
 void RecuperarPacientes2(pacientes Paciente, consulta UltimaConsulta, contacto ContactoDelPaciente, string os)//recibe los datos del paciente por referencia para poder ser modificados
 {

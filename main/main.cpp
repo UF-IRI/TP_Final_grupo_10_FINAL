@@ -52,13 +52,13 @@ int main()
     pacientes Paciente = BuscarPaciente2(Hist_clinica, *N, clave);
     if (Paciente.DNI == "0")
     {
-        cout << " Paciente no encontrado" << endl;
+        cout << " El paciente no fue encontrado" << endl;
         return 0;
     }
     contacto Contacto_Del_Paciente = BuscarContactoPaciente2(Datos_Contactos, *P, clave);
     if (Contacto_Del_Paciente.DNI == "0")
     {
-        cout << " no nos podremos comunicar con el paciente" << endl;
+        cout << " No nos podremos comunicar con el paciente" << endl;
         return 0;
     }
     string Obra_Social_Del_Paciente = Buscar_obra_social(Paciente, OS);
